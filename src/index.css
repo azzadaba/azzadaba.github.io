@@ -17,12 +17,12 @@
 
 @font-face {
   font-family: amsterdam;
-  src: url(Amsterdam.ttf);
+  src: url(/Amsterdam.ttf);
 }
 
 @font-face {
   font-family: panforte;
-  src: url(panforte_regular.ttf);
+  src: url(/panforte_regular.ttf);
 }
 
 a {
@@ -50,7 +50,7 @@ h2, h4 {
 }
 
 h2 {
-  font-size: 44px;
+  font-size: 40px;
 }
 
 h4 {
