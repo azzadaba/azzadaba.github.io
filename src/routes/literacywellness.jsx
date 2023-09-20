@@ -6,7 +6,6 @@ export default function LiteracyWellness() {
 
     let data = {
         header: (<h2>What is literacy wellness?</h2>),
-        subheader: (<h4>Testing a subheader</h4>),
         text: (<p> 
                 "Literacy wellness" is seen as a concept that recognizes the importance of literacy skills in promoting overall well-being and quality of life. It involves initiatives and strategies aimed at enhancing literacy abilities to empower individuals to make informed decisions, engage in meaningful activities, access resources and information, and navigate the complexities of the modern world. By promoting literacy, individuals can potentially improve their overall wellness and achieve their full potential in different aspects of life.
                 <br/><br/>

@@ -11,7 +11,7 @@ function Root() {
             <Outlet />
         </main>
           <footer>
-              <p>Literacy Wellness © 2023. Contact azzadaba@literacywellness.com</p>
+              <p>Literacy Wellness Inc. Contact azzadaba@literacywellness.com</p>
           </footer>
     </>
   )
