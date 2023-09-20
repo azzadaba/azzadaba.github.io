@@ -11,7 +11,7 @@ function Loader() {
 
 export default function Infobox(props) {
     const buttons = props.data.buttons != undefined ? props.data.buttons.map((button) =>
-        <Bigbutton name={button.text}/>
+        <Bigbutton key={button.text} name={button.text}/>
     ) : null;
 
     return (
@@ -40,8 +40,6 @@ export default function Infobox(props) {
                         <Canvas camera={{position: [6, 5, -6], fov: 40}} shadows dpr={[1, 1.5]} gl={{ preserveDrawingBuffer: true }}>
                             <Suspense fallback={<Loader />}>
                                 <Model position={[1, 0, 1]} rotOffset={-35.2} scale={2.9} />
-                                
-                                
                                 <Environment preset="city" />
                             </Suspense>
                             <ContactShadows rotation-x={Math.PI / 2} position={[0, -1.3, 0]} opacity={0.15} width={5} height={2} blur={1.1} far={1.3} />

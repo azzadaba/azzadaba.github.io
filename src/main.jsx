@@ -9,6 +9,8 @@ import Orthography from './routes/orthography.jsx';
 import Dyslexia from './routes/dyslexia.jsx';
 import About from './routes/about.jsx';
 import LiteracyWellness from './routes/literacywellness.jsx';
+import Resources from './routes/resources.jsx';
+import Contact from './routes/contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,16 @@ const router = createBrowserRouter([
       {
         path: "/About",
         element: <About />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Resources",
+        element: <Resources />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Contact",
+        element: <Contact />,
         errorElement: <ErrorPage />
       }
     ]
