@@ -5,7 +5,7 @@ export default function Navlink(props) {
     return (
         <Link to={props.link}>
             <div className="nav-link">
-                <div>
+                <div className="nav-icon">
                     <img src="button-icon.png" draggable={false} />
                 </div>
                 <div>

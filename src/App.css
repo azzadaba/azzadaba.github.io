@@ -1,14 +1,10 @@
 main {
-  width: 90%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 65px;
-}
-
-@media only screen and (min-width: 1366px) {
-  main {
-    width: 70%;
-  }
+  display: flex;
+  justify-content: center;
 }
 
 footer {
@@ -37,6 +33,7 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: 15px;
 }
 
 .nav-bar a {
@@ -138,22 +135,23 @@ footer p {
 
 .infoheader {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  margin-left: 10px;
-  margin-bottom: 100px;
-  margin-right: 1%;
-  height: 100px;
   list-style: none;
   width: 100%;
   background-color: #C39A42;
-  padding: 5px 50vw;
+  padding: 50px 0px;
+  text-align: center;
 }
 
 .infoheader .header-text {
- align-self: flex-end;
  flex-grow: 5;
- margin-left: 20px;
+ padding: 10px;
+}
+
+.nav-icon {
+  display: none;
 }
 
 .infoheader .header-text h2, .infoheader .header-subtext h4 {
@@ -162,7 +160,6 @@ footer p {
 
 .infoheader .header-subtext {
   margin: 15px 0px;
-  position: absolute;
 }
 
 .infoheader .header-buttons {
@@ -186,6 +183,12 @@ footer p {
 
 .infoheader .model {
   min-height: 200%;
+  display: none;
+}
+
+.infopage {
+  text-align: center;
+  width: 90%;
 }
 
 .button-arrow img {
@@ -199,4 +202,45 @@ footer p {
 .big-button:hover .button-arrow {
   transform: translateX(5px);
   transition: 0.2s;
+}
+
+@media only screen and (min-width: 1366px) {
+  main {
+    width: 70%;
+    display: block;
+  }
+
+  .infopage {
+    text-align: left;
+    width: 100%;
+  }
+
+  .infoheader .model {
+    display: block;
+  }
+
+  .infoheader {
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-right: 1%;
+    margin-bottom: 100px;
+    padding: 5px 50vw;
+    height: 100px;
+    text-align: left;
+  }
+
+  .infoheader .header-text {
+    align-self: flex-end;
+    margin-left: 20px;
+    padding: 0px;
+  }
+
+  .infoheader .header-subtext {
+    position: absolute;
+  }
+
+  .nav-icon {
+    display: block;
+  }
 }
