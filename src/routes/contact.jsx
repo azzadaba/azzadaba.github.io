@@ -6,12 +6,11 @@ export default function Contact() {
     header: <h2>Contact</h2>,
     text: (
       <div>
-            <form action="mailto:info@literacywellness.com" method="get" encType="text/plain">
-                <input type="text" name="subject" placeholder="Your Name" />
-                <input type="email" name="email" placeholder="Your Email" />
-                <textarea name="body" cols="30" rows="10" placeholder="Message..."></textarea>
-                <input type="submit" value="Send"/>
-        </form>
+        <center>
+          <p>info@literacywellness.com</p>
+          <p>(416)884-1970</p>
+
+        </center>
       </div>
     ),
   };

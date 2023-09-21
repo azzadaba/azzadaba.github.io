@@ -15,6 +15,12 @@
   overflow-x: hidden;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 @font-face {
   font-family: amsterdam;
   src: url(/Amsterdam.ttf);
@@ -51,11 +57,11 @@ h1 {
 }
 
 h2, h4 {
-  font-family: dyslexic;
+  font-family: panforte;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 38px;
 }
 
 h4 {

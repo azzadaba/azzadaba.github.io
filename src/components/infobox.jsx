@@ -11,13 +11,16 @@ function Loader() {
 
 export default function Infobox(props) {
     const buttons = props.data.buttons != undefined ? props.data.buttons.map((button) =>
-        <Bigbutton key={button.text} name={button.text}/>
+        <Bigbutton key={button.text} name={button.text} link={button.link}/>
     ) : null;
+
+    console.log(screen.width);
+
 
     return (
         <div className="infobox">
 
-            <div className="infoheader">
+            <div className="infoheader" style={{marginBottom: (screen.width > 1366 && props.data.image != undefined) ? "100px" : "0px"}}>
                 {props.data.image != undefined &&
                     <div className="header-image">
                         <img src={props.data.image} draggable={false} />

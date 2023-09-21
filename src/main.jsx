@@ -11,6 +11,13 @@ import About from './routes/about.jsx';
 import LiteracyWellness from './routes/literacywellness.jsx';
 import Resources from './routes/resources.jsx';
 import Contact from './routes/contact.jsx';
+import Interventions from './routes/interventions.jsx';
+import Services from './routes/services.jsx';
+import CooccurringConditions from './routes/cooccurringconditions.jsx';
+import Phonological from './routes/phonological.jsx';
+import Morphological from './routes/morphological.jsx';
+import Etymology from './routes/etymology.jsx';
+import AssistiveTech from './routes/assistivetech.jsx';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +53,41 @@ const router = createBrowserRouter([
       {
         path: "/Contact",
         element: <Contact />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Services",
+        element: <Services />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Interventions",
+        element: <Interventions />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Cooccurringconditions",
+        element: <CooccurringConditions />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Phonological",
+        element: <Phonological />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Morphological",
+        element: <Morphological />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Etymology",
+        element: <Etymology />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: "/Assistivetech",
+        element: <AssistiveTech />,
         errorElement: <ErrorPage />
       }
     ]
