@@ -239,7 +239,10 @@ footer p {
 }
 
 .infoheader .model {
-  min-height: 200%;
+  position: absolute;
+  width: 35%;
+  height: 200px;
+  right: 15%;
   display: none;
 }
 

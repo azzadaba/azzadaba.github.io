@@ -20,7 +20,7 @@ export default function Infobox(props) {
     return (
         <div className="infobox">
 
-            <div className="infoheader" style={{marginBottom: (screen.width > 1366 && props.data.image != undefined) ? "100px" : "0px"}}>
+            <div className="infoheader" style={{marginBottom: (screen.width > 1366 && props.data.image != undefined) ? "120px" : "0px"}}>
                 {props.data.image != undefined &&
                     <div className="header-image">
                         <img src={props.data.image} draggable={false} />
@@ -40,12 +40,12 @@ export default function Infobox(props) {
 
                 {props.data.hasModel &&
                     <div className="model">
-                        <Canvas camera={{position: [6, 5, -6], fov: 40}} shadows dpr={[1, 1.5]} gl={{ preserveDrawingBuffer: true }}>
+                        <Canvas camera={{position: [0, 2, 0], fov: 70}} shadows dpr={[1, 1.5]} gl={{  }}>
                             <Suspense fallback={<Loader />}>
-                                <Model position={[1, 0, 1]} rotOffset={-35.2} scale={2.9} />
+                                <Model position={[0, 0, 0]} scale={1} />
                                 <Environment preset="city" />
                             </Suspense>
-                            <ContactShadows rotation-x={Math.PI / 2} position={[0, -1.3, 0]} opacity={0.15} width={5} height={2} blur={1.1} far={1.3} />
+                            <ContactShadows blur={0.9} opacity={0.5} />
                         </Canvas>
                     </div>
                 }
