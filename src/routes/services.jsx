@@ -22,21 +22,21 @@ export default function Services() {
 
 				<p>
 					Consultation services are available for individuals, schools or institutions who seek support or expertise in the area of learning difficulties and literacy acquisition. These services entail:<br></br>
-					<ul>
-						<li>
-							Informal Academic Assessments are offered to identify gaps in literacy knowledge that may contribute to a learner's struggles with reading and writing. Based on the results of this assessment, a remedial intervention plan can be provided if needed.
-						</li>
-						<li>
-							Observation for young learners. A brief report and recommendations can be provided upon request.
-						</li>
-						<li>
-							Attending IEP meetings for learners in the tutoring program.
-						</li>
-						<li>
-							Speaking and giving presentations on related topics, such as learning disabilities, literacy acquisition, English as an additional language and dyslexia.
-						</li>
-					</ul>
 				</p>
+				<ul>
+					<li>
+						Informal Academic Assessments are offered to identify gaps in literacy knowledge that may contribute to a learner's struggles with reading and writing. Based on the results of this assessment, a remedial intervention plan can be provided if needed.
+					</li>
+					<li>
+						Observation for young learners. A brief report and recommendations can be provided upon request.
+					</li>
+					<li>
+						Attending IEP meetings for learners in the tutoring program.
+					</li>
+					<li>
+						Speaking and giving presentations on related topics, such as learning disabilities, literacy acquisition, English as an additional language and dyslexia.
+					</li>
+				</ul>
 			</div>
 		)
 	};

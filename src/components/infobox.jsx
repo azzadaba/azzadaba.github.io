@@ -16,6 +16,17 @@ export default function Infobox(props) {
 
     console.log(screen.width);
 
+    function speak() {
+        const synth = window.speechSynthesis;
+        for (let text of props.data.text.props.children) {
+            if (typeof text == "string") {
+                const utter = new SpeechSynthesisUtterance(text);
+                synth.speak(utter);
+                console.log(text);
+            }
+        }
+    }
+
 
     return (
         <div className="infobox">
@@ -56,7 +67,7 @@ export default function Infobox(props) {
                     </div>
                 }
             </div>
-            <div className="infopage">
+            <div className="infopage" onClick={speak}>
                 {props.data.text != undefined &&
                     props.data.text
                 }
