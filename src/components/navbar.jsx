@@ -17,7 +17,7 @@ export default function Navbar() {
                 { text: "Remedial Interventions", link: "/interventions" },
                 { text: "Assistive Technology", link: "/assistivetech" }
             ]} />
-            <Navlink name="LW Resources" link="/resources" />
+            <Navlink name="Store" link="/resources" />
         </header>
     );
 }

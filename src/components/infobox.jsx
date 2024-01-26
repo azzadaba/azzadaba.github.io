@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState } from "react";
 import Bigbutton from "./big-button";
 import Model from "../Model";
 import { Canvas } from "@react-three/fiber";
@@ -10,28 +10,47 @@ function Loader() {
 }
 
 export default function Infobox(props) {
+    const [screenWidth, setScreenWidth] = useState(screen.width);
+
     const buttons = props.data.buttons != undefined ? props.data.buttons.map((button) =>
         <Bigbutton key={button.text} name={button.text} link={button.link}/>
     ) : null;
 
-    console.log(screen.width);
 
-    function speak() {
-        const synth = window.speechSynthesis;
-        for (let text of props.data.text.props.children) {
-            if (typeof text == "string") {
-                const utter = new SpeechSynthesisUtterance(text);
+    const synth = window.speechSynthesis;
+
+    function findRoot(root) {
+        if (typeof root == "string" || root == undefined) {
+            if (root != undefined) {
+                const utter = new SpeechSynthesisUtterance(root);
+                utter.voice = synth.getVoices()[10];
                 synth.speak(utter);
-                console.log(text);
+            }
+            return;
+        }
+
+        if (root.props != undefined) {
+            if (Array.isArray(root.props.children)) {
+                for (let prop of root.props.children) {
+                    findRoot(prop);
+                }
+            }
+            else {
+                findRoot(root.props.children);
             }
         }
     }
 
+    function speak() {
+        findRoot(props.data.text);
+    }
+
+    addEventListener("resize", () => { setScreenWidth(window.innerWidth); });
 
     return (
         <div className="infobox">
 
-            <div className="infoheader" style={{marginBottom: (screen.width > 1366 && props.data.image != undefined) ? "120px" : "0px"}}>
+            <div className="infoheader" style={{marginBottom: (screenWidth > 1366 && props.data.image != undefined) ? "120px" : "0px"}}>
                 {props.data.image != undefined &&
                     <div className="header-image">
                         <img src={props.data.image} draggable={false} />
@@ -67,7 +86,8 @@ export default function Infobox(props) {
                     </div>
                 }
             </div>
-            <div className="infopage" onClick={speak}>
+            <div className="infopage">
+                <button className="btn-access" onClick={speak}> <img src="speaker.png" alt="speak" /> </button>
                 {props.data.text != undefined &&
                     props.data.text
                 }

@@ -41,7 +41,7 @@ export default function Interventions() {
 					<h3>Structured Word Inquiry</h3>
 				</a>
 				<p>
-					The Structured Word Inquiry (SWI) method, developed by <a href="https://www.wordworkskingston.com/WordWorks/Home.html" target="_blank">Peter Bowers</a>, PhD, has gained popularity in recent years and is now widely used by educators and reading specialists. <br></br>
+					The Structured Word Inquiry (SWI) method, developed by <a href="https://www.wordworkskingston.com/WordWorks/Home.html" target="_blank">Peter Bowers</a>, PhD, has gained popularity in recent years and is now widely used by educators and reading specialists.
 					It is a structured and explicit approach to teaching students how to analyze and understand the spelling and meaning of words based on their structure, etymology, and phonology. The SWI method draws on scientific principles to break down words into their meaningful units, including morphemes (the smallest units of meaning in a word), phonemes (the smallest units of sound in a word), and graphemes (the letters or letter combinations that represent phonemes)..
 					Students learn to ask questions such as:
 					<ul>
