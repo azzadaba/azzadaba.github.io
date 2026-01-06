@@ -10,7 +10,7 @@ export default function Navbar() {
             <Navlink name="Dyslexia" link="/dyslexia" sub={[
                 { text: "What is dyslexia?", link: "/dyslexia" },
                 { text: "Co-occurring Conditions", link: "/cooccurringconditions" },
-                { text: "Phonological Processing", link: "/phonological" },
+                { text: "Phonological Awareness", link: "/phonological" },
                 { text: "Morphological Processing", link: "/morphological" },
                 { text: "Orthography", link: "/orthography" },
                 { text: "Etymology", link: "/etymology" },

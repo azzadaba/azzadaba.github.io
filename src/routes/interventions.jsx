@@ -8,64 +8,100 @@ export default function Interventions() {
 		header: (<h2>Remedial Interventions</h2>),
 		text: (
 			<div>
-				<p>
-					Dyslexia is a lifelong condition, and while intervention can significantly improve reading and writing skills, ongoing support and accommodations may still be necessary. Effective remedial intervention requires a well-trained and knowledgeable instructor who can implement evidence-based practices and adapt the approach to meet individual needs.
-					<br /><br />
-					While individualized strategies may vary depending on the needs of each person, here are some common elements of effective remedial interventions for dyslexia:
-					<ol>
-						<li>
-							Multisensory Instruction: Dyslexia remediation often incorporates multiple senses, such as visual, auditory, and kinesthetic/tactile, to engage different pathways in the brain. This approach helps reinforce learning and memory.
-						</li>
-						<li>
-							Individualized Instruction: Dyslexia interventions should be tailored to the specific needs and strengths of each individual. Assessments and ongoing monitoring of progress can help identify areas that require additional support and guide the development of personalized strategies.
-						</li>
-						<li>
-							Phonological Awareness Training: Dyslexia is often characterized by difficulties in processing and manipulating sounds in spoken language. Phonological awareness exercises, such as rhyming, blending, segmenting, and manipulating sounds, are commonly included to improve phonemic awareness and phonics skills.
-						</li>
-						<li>
-							Structured Literacy Approach: Structured literacy programs provide a systematic and explicit approach to teaching reading and spelling. It encompasses direct instruction in phonology, morphology, orthography, etymology, grammar, and syntax.
-						</li>
-					</ol>
-				</p>
-
-				<br></br>
-				<a id="orton-gillingham" className="basic-header">
-					<h3>The Orton-Gillingham Approach</h3>
+				<a id="core" className="basic-header">
+					<h3>Core Elements of Effective Remedial Literacy Intervention</h3>
 				</a>
+
 				<p>
-					The <a href="https://www.ortonacademy.org/resources/what-is-the-orton-gillingham-approach/" target="_blank">Orton-Gillingham</a> approach (OG) is a systematic, explicit, cumulative and sequential approach that uses multiple sensory pathways for teaching reading and writing skills in a way that is tailored to the individual needs of each learner. It is widely considered the gold standard in remediation because of its effectiveness in improving reading and writing skills for individuals with dyslexia or other reading and writing difficulties, such as language disorders or English language learners.  It is based on a strong understanding of the underlying cognitive and neural processes that contribute to dyslexia. It was developed in the early 20th century by neuropsychiatrist Samuel Orton and educator Anna Gillingham and today, many dyslexia remediation programs are based on the Orton-Gillingham approach or incorporate its principles into their instruction.
+					While strategies are tailored to the individual, high-impact Structured Literacy remediation typically includes:
+				</p>
+				<ul>
+					<li>
+						Multisensory, Systemic and Explicit Instruction: Step by step, direct instruction that engages visual, auditory, and kinesthetic-tactile pathways simultaneously to reinforce neural connections and improve memory retention.
+					</li>
+					<li>
+						Phonological Awareness Training: Targeting the ability to process and manipulate sounds in spoken language—the foundation of successful phonics and decoding.
+					</li>
+					<li>
+						Morphological Awareness Training: Teaching students to recognize and manipulate morphemes (the smallest units of meaning, such as prefixes, suffixes, and bases). This strengthens vocabulary, spelling, and reading comprehension by helping students "decode for meaning."
+					</li>
+					<li>
+						Etymological Awareness: Exploring word history to explain why words are spelled the way they are. Understanding a word's origin often provides the "missing link" for seemingly irregular spellings.
+					</li>
+					<li>
+						Syntax & Grammar: Building a mastery of sentence structure that builds upon morphological awareness. Students learn how word structure influences grammatical function, enabling them to transition from reading individual words to constructing cohesive, fluent writing.
+					</li>
+					<li>
+						Individualized Programming: Utilizing continuous assessment and progress monitoring to ensure instruction aligns with the learner’s specific strengths and evolving needs.
+					</li>
+				</ul>
+
+				<hr />
+				<a id="hybrid" className="basic-header">
+					<h2>The Literacy Wellness Framework: A Hybrid Approach</h2>
+				</a>
+
+				<p>
+					To provide the most robust support possible, the Literacy Wellness methodology integrates two of the most respected frameworks in the field of literacy science:
 				</p>
 
-				<br></br>
+				<a id="orton" className="basic-header">
+					<h3>1. The Orton-Gillingham (OG) Approach</h3>
+				</a>
+
+				<p>
+					Widely considered the "gold standard" for dyslexia remediation, the Orton-Gillingham approach is a systematic, cumulative, sequential and highly structured framework. It is designed to develop reading and writing skills by tailoring instruction to the specific needs of the learner. 
+				</p>
+				<ul>
+					<li>
+						Diagnostic & Prescriptive: Instruction is never "one-size-fits-all." Each lesson is based on the student's performance in the previous session, allowing for a precise focus on the specific linguistic gaps identified through ongoing assessment.
+					</li>
+					<li>
+						Simultaneous Multisensory Engagement: OG famously utilizes the "VAKT" (Visual, Auditory, Kinesthetic-Tactile) approach. By engaging all these pathways at once, we create stronger neural anchors for reading and spelling.
+					</li>
+					<li>
+						Explicit & Systematic: There is no guesswork. Every rule of the English language—from simple phonemes to complex orthographic patterns—is taught directly and in a logical order that builds from the simplest to the most complex concepts.
+					</li>
+					<li>
+						Cognitive & Empowering: Beyond just "how" to read, OG teaches students "why" the language works. This develops the metalinguistic awareness necessary for students with dyslexia to become independent, confident readers.
+					</li>
+				</ul>
+
+				<p>
+					Originally developed in the early 20th century by neuropsychiatrist Samuel Orton and educator Anna Gillingham, its principles remain the foundation for the world’s most successful evidence-based literacy interventions.
+				</p>
+
 				<a id="structure" className="basic-header">
-					<h3>Structured Word Inquiry</h3>
+					<h3>2. Structured Word Inquiry (SWI)</h3>
 				</a>
-				<p>
-					The Structured Word Inquiry (SWI) method, developed by <a href="https://www.wordworkskingston.com/WordWorks/Home.html" target="_blank">Peter Bowers</a>, PhD, has gained popularity in recent years and is now widely used by educators and reading specialists.
-					It is a structured and explicit approach to teaching students how to analyze and understand the spelling and meaning of words based on their structure, etymology, and phonology. The SWI method draws on scientific principles to break down words into their meaningful units, including morphemes (the smallest units of meaning in a word), phonemes (the smallest units of sound in a word), and graphemes (the letters or letter combinations that represent phonemes)..
-					Students learn to ask questions such as:
-					<ul>
-						<li>
-							What is the meaning of the word?
-						</li>
-						<li>
-							What affixes (prefixes or suffixes) are added to the base element, and what do they mean?
-						</li>
-						<li>
-							What are the relatives that share the same base element?
-						</li>
-						<li>
-							What is the phonological pattern of the word (e.g., what sounds do the graphemes represent, and how are they blended together)?
-						</li>
-					</ul>
-				</p>
-			</div>
 
+				<p>
+					Structured Word Inquiry (SWI) is a scientific framework used to analyze the spelling and meaning of words. Rather than relying on rote memorization for "irregular" sight words, SWI teaches students to become "word scientists" who investigate the logic behind English orthography.By breaking words into morphemes (meaning), etymology (history), and phonology (sounds), students learn to navigate the language with logic and confidence. Initially developed by Peter Bowers, PhD, SWI has gained popularity in recent years and is now widely used by educators and reading specialists.
+				</p>
+
+				<p>
+					The Four Questions of Inquiry Students use a consistent four-step investigation for any word:
+				</p>
+				<ol>
+					<li>
+						What is the meaning? Defining the core concept of the word.
+					</li>
+					<li>
+						How is it constructed? Using "word sums" to identify the base and its affixes (e.g., sign + al = signal).
+					</li>
+					<li>
+						What are its relatives? Identifying other words that share the same base (e.g., design, signature, designate).
+					</li>
+					<li>
+						What is the phonological pattern? Determining how the graphemes represent sounds within the context of that specific word's structure.
+					</li>
+				</ol>
+			</div>
 		),
 		buttons: [
 			{
 				text: "Orton-Gillingham",
-				link: "#orton-gillingham"
+				link: "#orton"
 			},
 			{
 				text: "Structured Word Inquiry",

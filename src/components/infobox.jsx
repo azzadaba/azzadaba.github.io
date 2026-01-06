@@ -10,7 +10,7 @@ function Loader() {
 }
 
 export default function Infobox(props) {
-    const [screenWidth, setScreenWidth] = useState(screen.width);
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
     const buttons = props.data.buttons != undefined ? props.data.buttons.map((button) =>
         <Bigbutton key={button.text} name={button.text} link={button.link}/>
@@ -41,7 +41,7 @@ export default function Infobox(props) {
 
                 {props.data.hasModel &&
                     <div className="model">
-                        <Canvas camera={{position: [0, 2, 0], fov: 70}} shadows dpr={[1, 1.5]} gl={{  }}>
+                        <Canvas camera={{position: [0, 3, 0], fov: 90}} shadows dpr={[1, 1.5]} gl={{  }}>
                             <Suspense fallback={<Loader />}>
                                 <Model position={[0, 0, 0]} scale={1} />
                                 <Environment preset="city" />

@@ -5,16 +5,42 @@ import Infobox from "../components/infobox";
 export default function Morphological() {
 
 	let data = {
-		header: (<h2>Morphological Processing</h2>),
+		header: (<h2>Morphological Awareness: Bridge to Fluency</h2>),
 		text: (
 			<div>
 				<p>
-					Morphology is the branch of linguistics that deals with the internal structure of words and how they are formed. It examines morphemes, which are the smallest meaningful units of language.
-					<br /><br />
-					Morphological processing is the ability to recognize and manipulate these morphemes. When children have strong morphological awareness skills, they are better able to understand how words are formed and how the meaning of words can be changed by adding or removing morphemes. This type of understanding can be especially helpful when reading more advanced texts that contain many unfamiliar words.
-					<br /><br />
-					Morphological awareness training may be particularly helpful for dyslexic children who struggle with decoding complex words. By teaching children to recognize and manipulate morphemes, they can improve their ability to break down complex words into smaller, more manageable parts, which can make the process of decoding words easier and more efficient. In addition, children who have strong morphological awareness skills tend to have better vocabularies and better reading comprehension overall.
+					Morphology awareness moves the learner from simple, sound-by-sound decoding to the orthographic mapping phase of reading and spelling. By teaching students to recognize morphemes—the smallest units of meaning in a language, such as bases, prefixes, and suffixes, we help them move toward automaticity.
 				</p>
+
+				<p>
+					Example: Instead of decoding r-e-p-l-a-y-i-n-g as isolated sounds, the brain sees [re-] [play] [-ing].
+				</p>
+
+				<p>
+					When a student possesses strong morphological awareness, they transition from "sounding out" letters to "analyzing structures." This understanding is essential for navigating advanced texts where vocabulary becomes increasingly complex.
+				</p>
+
+				<a id="game-changer" className="basic-header">
+					<h3>Why Morphology is a "Game-Changer" for Dyslexic Learners</h3>
+				</a>
+
+				<p>
+					For students who struggle with decoding long, multi-syllabic words, morphological awareness provides a more efficient cognitive path:
+				</p>
+				<ul>
+					<li>
+						Strategic Decoding: Rather than viewing a word as a long string of individual letters, students learn to break it down into manageable, meaningful parts (e.g., un-help-ful).
+					</li>
+					<li>
+						Vocabulary Expansion: A single base element can unlock dozens of related words. By mastering one morpheme, a student's vocabulary grows exponentially rather than incrementally.
+					</li>
+					<li>
+						Enhanced Comprehension: Understanding how a word's meaning and grammatical function changes when a morpheme is added or removed allows students to derive the definition of unfamiliar words.
+					</li>
+					<li>
+						Spelling Logic: It explains why the word "health" has an a (it comes from heal) or why "sign" has a g (it is related to signal).
+					</li>
+				</ul>
 			</div>
 		)
 	}

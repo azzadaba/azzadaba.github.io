@@ -28,6 +28,10 @@ export default function Model(props) {
     //rotations.x = -Math.PI / 12 + Math.cos(t / 2) / 8
     //rotations.y = Math.sin(t / 2) / 8 - (props.rotOffset || 0)
     //rotations.z = (1 + Math.sin(t / 1.5)) / (props.variation * 15 || 20)
+    rotations.z += 0.3;
+    rotations.y += 0.5;
+    rotations.x += 0.2;
+    setRotations(rotations);
 
     setYpos((1 + Math.sin(t / 1.5)) / 10);
   });
@@ -36,112 +40,51 @@ export default function Model(props) {
     return [x, y, z];
   }
 
-  var model = "/ALetter.glb";
+  var model = "/lettercube.glb";
   var { nodes } = useGLTF(model);
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh
         castShadow
         receiveShadow
-        geometry={ nodes.TextA.geometry }
-        material={new MeshStandardMaterial({ color: "#C39A42" })}
+        geometry={ nodes.Cube.geometry }
+        material={nodes.Cube.material}
         position={getLetterPos(-1.5, 0.8 + ypos * 0.3, 0)}
-        //position={[-1.5 + mousepos.x, 0.8 + ypos * 0.3, 0 + mousepos.z]} // horizontal, depth, vertical
         rotation={[0 + rotations.x * Math.PI / 180, (25 - rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 1, 1]}
+        scale={[0.5, 0.5, 0.5]}
       />
+
       <mesh
         castShadow
         receiveShadow
-        geometry={ nodes.TextE.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[-0.1, 0.6 + ypos * 0.1, 0.4]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (-45 - rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 1, 1]}
+        geometry={ nodes.Cube.geometry }
+        material={nodes.Cube.material}
+        position={getLetterPos(1.0, 0.3 + ypos * 0.3, 0.5)}
+        rotation={[15 + rotations.x * Math.PI / 180, (25 - rotations.y) * Math.PI / 180, 50 + rotations.z * Math.PI / 180]}
+        scale={[0.5, 0.5, 0.5]}
       />
+
       <mesh
         castShadow
         receiveShadow
-        geometry={ nodes.TextI.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[-0.1, 0.4 + ypos * 0.3, -0.5]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (-20 + rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 1, 1]}
+        geometry={ nodes.Cube.geometry }
+        material={nodes.Cube.material}
+        position={getLetterPos(0.0, 0.5 + ypos * 0.3, -0.8)}
+        rotation={[75 + rotations.x * Math.PI / 180, (25 - rotations.y) * Math.PI / 180, 50 + rotations.z * Math.PI / 180]}
+        scale={[0.5, 0.5, 0.5]}
       />
+
       <mesh
         castShadow
         receiveShadow
-        geometry={ nodes.TextO.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[2.4, 0.1 + ypos * 0.22, 0]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (-30 - rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 1, 1]}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={ nodes.TextU.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[1, 0.2 + ypos * 0.4, 0.7]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (-15 + rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 1, 1]}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={ nodes.TextC.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[-1.6, 0.9 + ypos * 0.12, 0.5]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (-5 + rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 0.5, 1]}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={ nodes.TextF.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[-1.1, 0.65 + ypos * 0.34, 0.55]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (10 - rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 1, 1]}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={ nodes.TextJ.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[-0.8, 0.45 + ypos * 0.44, -0.3]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (-15 - rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1.0, 1.0, 1.0]}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={ nodes.TextT.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[0.9, 0.2 + ypos * 0.27, -0.7]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (13 + rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[1, 1, 1]}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={ nodes.TextP.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[2.9, 0.1 + ypos * 0.09, -0.8]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (-35 + rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[0.7, 0.7, 0.7]}
-      />
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={ nodes.TextM.geometry }
-        material={ new MeshStandardMaterial({color: "#C39A42"}) }
-        position={[1.5 + mousepos.x, 0.2 + ypos * 0.37, 0.3 + mousepos.z]} // horizontal, depth, vertical
-        rotation={[0 + rotations.x * Math.PI / 180, (15 - rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
-        scale={[0.8, 0.8, 0.8]}
+        geometry={ nodes.Cube.geometry }
+        material={nodes.Cube.material}
+        position={getLetterPos(3.0, 0.0 + ypos * 0.3, -0.4)}
+        rotation={[11 + rotations.x * Math.PI / 180, (25 + rotations.y) * Math.PI / 180, 15 + rotations.z * Math.PI / 180]}
+        scale={[0.5, 0.5, 0.5]}
       />
     </group>
   );
 }
 
-useGLTF.preload("/LLetter.glb");
+//useGLTF.preload("/LLetter.glb");
