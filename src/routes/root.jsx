@@ -3,11 +3,22 @@ import Navbar from "../components/navbar";
 import { Outlet } from "react-router-dom";
 
 function Root() {
+  const updating = true;
+
   return (
     <>
       <Navbar />
       <main>
-        <Outlet />
+        {
+          updating &&
+            <center>
+              <h4>The website is currently undergoing updates.</h4>
+            </center>
+        }
+        {
+          !updating &&
+          <Outlet />
+        }
       </main>
       <footer>
         <p>
