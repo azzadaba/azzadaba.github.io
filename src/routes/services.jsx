@@ -64,9 +64,11 @@ export default function Services() {
 
 				<p>
 					<i>
-						While a selection of materials is available for purchase now, I am continually developing and adding new tools to this collection. Stay informed and join the waitlist to be the first to know when new specialized tools and resources are released. [ Join the Waitlist ]
+						While a selection of materials is available for purchase now, I am continually developing and adding new tools to this collection. Stay informed and join the waitlist to be the first to know when new specialized tools and resources are released.
 					</i>
 				</p>
+
+				<Link to={"mailto:azzadaba@literacywellness.com"}>[ Join the Waitlist ]</Link>
 			</div>
 		)
 	};

@@ -14,7 +14,7 @@ export default function About() {
 		text: (
 			<div>
 				<h4>Expertise Rooted in Science</h4>
-				<p>Azza is an education specialist with 20+ years of experience helping students navigate neurodiverse learning paths. Holding a Master’s in Special and Inclusive Education and a certification in the Orton-Gillingham (OG) approach, she bridges the gap between complex linguistic theory and practical, evidence-based remedial intervention.</p>
+				<p style={{fontFamily: "quicksand"}}>Azza is an education specialist with 20+ years of experience helping students navigate neurodiverse learning paths. Holding a Master’s in Special and Inclusive Education and a certification in the Orton-Gillingham (OG) approach, she bridges the gap between complex linguistic theory and practical, evidence-based remedial intervention.</p>
 
 				<h4>A Global Perspective</h4>
 				<p>As a bilingual educator and Ontario-certified English language teacher (OCELT), Azza brings a unique cross-linguistic perspective to her work. By studying the cognitive demands of different writing systems, she offers deep insights into how students can master English orthography.</p>

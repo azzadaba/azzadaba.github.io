@@ -36,6 +36,11 @@
   src: url(/panforte_regular.ttf);
 }
 
+@font-face {
+  font-family: quicksand;
+  src: url(/Quicksand-VariableFont_wght.ttf);
+}
+
 a {
   font-weight: 500;
   color: #646cff;
