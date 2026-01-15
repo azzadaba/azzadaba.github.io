@@ -56,7 +56,7 @@ export default function Services() {
 				</p>
 
 				<hr />
-				<h4>Educational Resources & Literacy Tools</h4>
+				<h3>Educational Resources & Literacy Tools</h3>
 				<p>
 					I currently offer a growing collection of literacy resources designed for purchase. Ranging from informative slide presentations or infographics to targeted practice worksheets and apps, these materials are designed for parents supporting a learner at home or educators seeking evidence-based classroom tools.
 				</p>
@@ -68,7 +68,7 @@ export default function Services() {
 					</i>
 				</p>
 
-				<Link to={"mailto:azzadaba@literacywellness.com"}>[ Join the Waitlist ]</Link>
+				<Link to={"mailto:azzadaba@literacywellness.com"}>Join the Waitlist</Link>
 			</div>
 		)
 	};
