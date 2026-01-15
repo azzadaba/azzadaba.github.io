@@ -7,7 +7,7 @@ export default function Navbar() {
             <Navlink name="Home" link="/" />
             <Navlink name="About" link="/about" />
             <Navlink name="Services" link="/services" />
-            <Navlink name="Dyslexia" link="/dyslexia" sub={[
+            <Navlink name="Learning Hub" link="/dyslexia" sub={[
                 { text: "What is dyslexia?", link: "/dyslexia" },
                 { text: "Co-occurring Conditions", link: "/cooccurringconditions" },
                 { text: "Phonological Awareness", link: "/phonological" },

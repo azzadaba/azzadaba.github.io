@@ -22,7 +22,7 @@ export default function LiteracyWellness() {
 				<hr />
 
 				<a id="navigating" className="basic-header">
-					<h3>Navigating this Platform</h3>
+					<h3>Navigating this Website</h3>
 				</a>
 
 				<p>
@@ -54,7 +54,7 @@ export default function LiteracyWellness() {
 					If you're ready to address the root causes of literacy challenges through a tailored, evidence-based framework, I am here to help.
 
 					<br />
-					<Link to={"/book"}>[Book a Consultation]</Link> | <Link to={"/resources"}>[Browse Resources]</Link>
+					<Link to={"mailto:azzadaba@literacywellness.com"}>[Book a Consultation]</Link> | <Link to={"/resources"}>[Browse Resources]</Link>
 				</p>
 
 			</div>

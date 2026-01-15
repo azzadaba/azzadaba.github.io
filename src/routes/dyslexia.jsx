@@ -61,6 +61,8 @@ export default function Dyslexia() {
 						Spelling & Written Expression: Persistent difficulties with orthographic mapping and translating thoughts to paper.
 					</li>
 				</ul>
+
+				<img src="infographic.jpg" alt="infographic" style={{width: "100%"}} />
 			</div>
 		)
 	}

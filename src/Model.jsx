@@ -31,7 +31,7 @@ export default function Model(props) {
     rotations.z += 0.3;
     rotations.y += 0.5;
     rotations.x += 0.2;
-    setRotations(rotations);
+    //setRotations(rotations);
 
     setYpos((1 + Math.sin(t / 1.5)) / 10);
   });

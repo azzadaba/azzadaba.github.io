@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 import { Outlet } from "react-router-dom";
 
 function Root() {
-  const updating = true;
+  const updating = false;
 
   return (
     <>
