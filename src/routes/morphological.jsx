@@ -41,6 +41,8 @@ export default function Morphological() {
 						Spelling Logic: It explains why the word "health" has an a (it comes from heal) or why "sign" has a g (it is related to signal).
 					</li>
 				</ul>
+
+				<img src="MAinfographic.jpg" alt="infographic" style={{width: "100%"}} />
 			</div>
 		)
 	}

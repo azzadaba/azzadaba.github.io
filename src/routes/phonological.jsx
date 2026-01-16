@@ -39,6 +39,8 @@ export default function Phonological() {
 				<p>
 					Dyslexia is most frequently characterized by a deficit in phonological processing. Deficits can range from mild to profound difficulties in blending, segmenting or sound manipulation. Many learners experience phonological challenges alongside other difficulties, requiring a comprehensive approach.
 				</p>
+
+				<img src="PAinfographic.jpg" alt="infographic" style={{width: "100%"}} />
 			</div>
 		)
 	}

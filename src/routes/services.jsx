@@ -60,7 +60,7 @@ export default function Services() {
 				<p>
 					I currently offer a growing collection of literacy resources designed for purchase. Ranging from informative slide presentations or infographics to targeted practice worksheets and apps, these materials are designed for parents supporting a learner at home or educators seeking evidence-based classroom tools.
 				</p>
-				<Link to={"/resources"}>[Browse the Resource Shop]</Link>
+				<Link to={"/resources"}>Browse the Resource Shop</Link>
 
 				<p>
 					<i>

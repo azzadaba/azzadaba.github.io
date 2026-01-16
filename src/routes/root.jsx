@@ -1,6 +1,6 @@
 import "../App.css";
 import Navbar from "../components/navbar";
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 
 function Root() {
   const updating = false;
@@ -42,6 +42,8 @@ function Root() {
           </a>
         </div>
       </footer>
+
+      <ScrollRestoration />
     </>
   );
 }

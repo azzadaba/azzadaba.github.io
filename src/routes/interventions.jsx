@@ -5,11 +5,11 @@ import Infobox from "../components/infobox";
 export default function Interventions() {
 
 	let data = {
-		header: (<h2>Remedial Interventions</h2>),
+		header: (<h2>Remedial Structured Literacy Interventions</h2>),
 		text: (
 			<div>
 				<a id="core" className="basic-header">
-					<h3>Core Elements of Effective Remedial Literacy Intervention</h3>
+					<h3>Core Elements of Effective Structured Literacy Intervention</h3>
 				</a>
 
 				<p>
@@ -63,7 +63,7 @@ export default function Interventions() {
 						Explicit & Systematic: There is no guesswork. Every rule of the English language—from simple phonemes to complex orthographic patterns—is taught directly and in a logical order that builds from the simplest to the most complex concepts.
 					</li>
 					<li>
-						Cognitive & Empowering: Beyond just "how" to read, OG teaches students "why" the language works. This develops the metalinguistic awareness necessary for students with dyslexia to become independent, confident readers.
+						Cognitive & Empowering: Beyond the mechanics of reading. OG develops metacognition and the self-awareness necessary for students with dyslexia to become independent, confident readers.
 					</li>
 				</ul>
 
@@ -76,7 +76,7 @@ export default function Interventions() {
 				</a>
 
 				<p>
-					Structured Word Inquiry (SWI) is a scientific framework used to analyze the spelling and meaning of words. Rather than relying on rote memorization for "irregular" sight words, SWI teaches students to become "word scientists" who investigate the logic behind English orthography.By breaking words into morphemes (meaning), etymology (history), and phonology (sounds), students learn to navigate the language with logic and confidence. Initially developed by Peter Bowers, PhD, SWI has gained popularity in recent years and is now widely used by educators and reading specialists.
+					Structured Word Inquiry (SWI) is a scientific framework used to analyze the spelling and meaning of words. Rather than relying on rote memorization of spellings, SWI teaches students to become "word scientists" who investigate the logic behind English spelling. By utilizing morphemes (meaningful word parts), etymology(history), and phonology (sounds), students learn to navigate the language with logic and confidence. Initially developed by Peter Bowers, PhD, SWI has gained popularity in recent years and is now widely used by remedial educators and reading specialists.
 				</p>
 
 				<p>

@@ -33,6 +33,8 @@ export default function Etymology() {
             Deepening Vocabulary: By tracing a word's history, students don’t just memorize a definition; they understand the "true sense" of the word, which leads to superior long-term retention and sophisticated usage in writing.
           </li>
         </ul>
+
+        <img src="etyminfographic.jpg" alt="infographic" style={{width: "100%"}} />
       </div>
     )
   }

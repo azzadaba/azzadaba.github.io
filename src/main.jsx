@@ -4,7 +4,6 @@ import Root from './routes/root.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
 import ErrorPage from './error-page.jsx';
-import Navpage from './routes/nav-page.jsx';
 import Orthography from './routes/orthography.jsx';
 import Dyslexia from './routes/dyslexia.jsx';
 import About from './routes/about.jsx';

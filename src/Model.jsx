@@ -33,7 +33,7 @@ export default function Model(props) {
     rotations.x += 0.2;
     //setRotations(rotations);
 
-    setYpos((1 + Math.sin(t / 1.5)) / 10);
+    //setYpos((1 + Math.sin(t / 1.5)) / 10);
   });
 
   function getLetterPos(x, y, z) {
@@ -50,7 +50,7 @@ export default function Model(props) {
         geometry={ nodes.Cube.geometry }
         material={nodes.Cube.material}
         position={getLetterPos(-1.5, 0.8 + ypos * 0.3, 0)}
-        rotation={[0 + rotations.x * Math.PI / 180, (25 - rotations.y) * Math.PI / 180, 0 + rotations.z * Math.PI / 180]}
+        rotation={[3.4 + rotations.x * Math.PI / 180, (260 - rotations.y) * Math.PI / 180, 310 + rotations.z * Math.PI / 180]}
         scale={[0.5, 0.5, 0.5]}
       />
 
