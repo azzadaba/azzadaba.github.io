@@ -101,8 +101,9 @@ export default function Resources() {
     text: (
       <div>
         <center>
-          <div id='product-component-1706301054015'></div>
-          </center>
+          <h2>New resources launching Spring 2026.</h2>
+          <h3>Stay tuned!</h3>
+        </center>
       </div>
     ),
   };
