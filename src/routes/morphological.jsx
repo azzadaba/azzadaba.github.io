@@ -9,7 +9,7 @@ export default function Morphological() {
 		text: (
 			<div>
 				<p>
-					Morphology awareness moves the learner from simple, sound-by-sound decoding to the orthographic mapping phase of reading and spelling. By teaching students to recognize morphemes—the smallest units of meaning in a language, such as bases, prefixes, and suffixes, we help them move toward automaticity.
+					Morphology awareness moves the learner from simple, sound-by-sound decoding to the orthographic mapping phase of reading and spelling. By teaching students to recognize morphemes (the smallest units of meaning in a language), such as bases, prefixes, and suffixes, we help them move toward automaticity.
 				</p>
 
 				<p>
