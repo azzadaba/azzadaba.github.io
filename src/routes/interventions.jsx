@@ -20,10 +20,10 @@ export default function Interventions() {
 						Multisensory, Systemic and Explicit Instruction: Step by step, direct instruction that engages visual, auditory, and kinesthetic-tactile pathways simultaneously to reinforce neural connections and improve memory retention.
 					</li>
 					<li>
-						Phonological Awareness Training: Targeting the ability to process and manipulate sounds in spoken language—the foundation of successful phonics and decoding.
+						Phonological Awareness Training: Targeting the ability to process and manipulate sounds in spoken language, it's the foundational skill for literacy acquisition.
 					</li>
 					<li>
-						Morphological Awareness Training: Teaching students to recognize and manipulate morphemes (the smallest units of meaning, such as prefixes, suffixes, and bases). This strengthens vocabulary, spelling, and reading comprehension by helping students "decode for meaning."
+						Morphological Awareness Training: Teaching students to recognize and manipulate morphemes (the smallest units of meaning), such as prefixes, suffixes, and bases. This strengthens vocabulary, spelling, and reading comprehension by helping students develop fluency and decode for meaning.
 					</li>
 					<li>
 						Etymological Awareness: Exploring word history to explain why words are spelled the way they are. Understanding a word's origin often provides the "missing link" for seemingly irregular spellings.
@@ -60,7 +60,7 @@ export default function Interventions() {
 						Simultaneous Multisensory Engagement: OG famously utilizes the "VAKT" (Visual, Auditory, Kinesthetic-Tactile) approach. By engaging all these pathways at once, we create stronger neural anchors for reading and spelling.
 					</li>
 					<li>
-						Explicit & Systematic: There is no guesswork. Every rule of the English language—from simple phonemes to complex orthographic patterns—is taught directly and in a logical order that builds from the simplest to the most complex concepts.
+						Explicit & Systematic: There is no guesswork. Every rule of the English language, from simple phonemes to complex orthographic patterns, is taught directly and in a logical order that builds from the simplest to the most complex concepts.
 					</li>
 					<li>
 						Cognitive & Empowering: Beyond the mechanics of reading. OG develops metacognition and the self-awareness necessary for students with dyslexia to become independent, confident readers.
