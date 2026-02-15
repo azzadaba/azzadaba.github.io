@@ -9,7 +9,7 @@ export default function Phonological() {
 		text: (
 			<div>
 				<p>
-					Phonological awareness is the foundational ability to recognize and manipulate the sounds of spoken language. It involves a deep understanding of phonemes—the individual units of sound that constitute words—and the cognitive agility to blend, segment, and manipulate these sounds to decode and encode language.
+					Phonological awareness is the foundational ability to recognize and manipulate the sounds of spoken language. It involves a deep understanding of phonemes, the individual units of sound within words, and the cognitive agility to blend, segment, and manipulate these sounds to decode and encode language.
 				</p>
 				<p>
 					As a fundamental building block for reading success, phonological awareness allows a learner to master the sound structure of language, leading to the successful development of letter-sound correspondences.Research has shown that children who have strong phonological awareness skills are more likely to become successful readers.
