@@ -19,7 +19,7 @@ export default function Etymology() {
 					<h3>Why Etymology is Essential for Literacy</h3>
 				</a>
         <p>
-          For many learners—particularly those with dyslexia—English spelling can feel like a collection of "random rules" and "exceptions." Etymology proves that English is actually a logical, highly consistent system.
+          For many learners, particularly those with dyslexia, English spelling can feel like a collection of "random rules" and "exceptions." Etymology proves that English is actually a logical, highly consistent system.
         </p>
 
         <ul>
