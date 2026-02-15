@@ -9,7 +9,7 @@ export default function Orthography() {
 		text: (
 			<div>
 				<p>
-					Orthography is the system of conventions used to represent a spoken language in written form. It is a sophisticated framework that encompasses spelling, punctuation, capitalization, and the structural rules of grammar and syntax. Orthography serves as the visual map of our language, enabling clear communication and deep reading comprehension.
+					Orthography is the system of conventions used to represent a spoken language in written form. It is a sophisticated framework that encompasses grapheme-phoneme correspondence, spelling, punctuation, capitalization, and the structural rules of grammar and syntax. Orthography serves as the visual map of our language, enabling clear communication and deep reading comprehension.
 				</p>
 				
 				<a id="depth" className="basic-header">
@@ -33,7 +33,7 @@ export default function Orthography() {
 					<h3>The Challenge for the Dyslexic Learner</h3>
 				</a>
 				<p>
-					Because English is a deep orthography, it poses significant challenges for individuals with dyslexia. The struggles with reading, writing, and spelling are often more pronounced because the "code" is not always transparent. The spelling is not just trying to represent sounds—it is also trying to preserve meaning and history.
+					Because English is a deep orthography, it poses significant challenges for individuals with dyslexia. The struggles with reading, writing, and spelling are often more pronounced because the "code" is not always transparent. The spelling is not just trying to represent sounds, in reality, it is trying to preserve meaning and history.
 				</p>
 				<p>
 					To a student with dyslexia who relies on a simple "one letter = one sound" rule, these complexities feel like rule-breakers and can be very frustrating. Traditional spelling instruction focuses on “sounding out” words or rote memory. The Literacy Wellness approach dives deep into orthography to explain the logic that governs the English writing system.
