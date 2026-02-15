@@ -41,7 +41,7 @@ export default function Infobox(props) {
 
                 {props.data.hasModel &&
                     <div className="model">
-                        <Canvas camera={{position: [0, 3, 0], fov: 90}} shadows dpr={[1, 1.5]} gl={{  }}>
+                        <Canvas camera={{position: [0, 5, 0], fov: 70}} shadows dpr={[1, 1.5]} gl={{  }}>
                             <Suspense fallback={<Loader />}>
                                 <Model position={[0, 0, 0]} scale={1} />
                                 <Environment preset="city" />
