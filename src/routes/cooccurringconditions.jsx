@@ -16,7 +16,7 @@ export default function CooccurringConditions() {
 					<h3>Executive Function & Attention</h3>
 				</a>
 				<ul>
-					<li>ADHD (Attention-Deficit/Hyperactivity Disorder): Dyslexia and ADHD co-occur at a high rate. ADHD involves differences in the prefrontal cortex that impact executive functioning—the brain's "command center." This can manifest as challenges with working memory, focus, organization, time management, and emotional self-regulation.</li>
+					<li>ADHD (Attention-Deficit/Hyperactivity Disorder): Dyslexia and ADHD co-occur at a high rate. ADHD involves differences in the prefrontal cortex that impact executive functioning:the brain's "command center." This can manifest as challenges with working memory, focus, organization, time management, and emotional self-regulation.</li>
 				</ul>
 
 				<a id="learning" className="basic-header">
@@ -38,7 +38,7 @@ export default function CooccurringConditions() {
 
 				<ul>
 					<li>
-						Speech and Language Disorders: This may include difficulties with articulation, receptive language (understanding), or expressive language (usage). Since dyslexia is rooted in language processing, these challenges often overlap.
+						Speech and Language Disorders: This may include difficulties with articulation, receptive language (understanding), or expressive language (speaking). Since dyslexia is rooted in language processing, these challenges often overlap.
 					</li>
 					<li>
 						Developmental Coordination Disorder (DCD/Dyspraxia): DCD affects motor planning and coordination. It can impact "fine motor" tasks like handwriting and "gross motor" activities like balance. The overlap with dyslexia often appears in the shared difficulty of automating complex, multi-step tasks.
@@ -51,7 +51,7 @@ export default function CooccurringConditions() {
 
 				<ul>
 					<li>
-						Sensory Processing Disorder (SPD): This occurs when the brain has difficulty receiving or responding to sensory information. A student may be over-responsive (hypersensitive) or under-responsive (hyposensitive) to light, sound, or touch, which can significantly impact their ability to focus during literacy instruction.
+						Sensory Processing Disorder (SPD): This occurs when the brain has difficulty receiving or responding to sensory information. A student may be over-responsive (hypersensitive) or under-responsive (hyposensitive) to light, sound, or touch, which can significantly impact their ability to focus during academic instruction.
 					</li>
 					<li>
 						Anxiety and Depression: While not inherent to dyslexia, these are often "secondary" symptoms resulting from years of academic frustration and social pressure. Supporting the emotional health of the learner is just as vital as the remedial instruction itself.
