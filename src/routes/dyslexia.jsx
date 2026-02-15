@@ -58,7 +58,7 @@ export default function Dyslexia() {
 						Reading Comprehension: Difficulty often resulting from the high cognitive load of decoding.
 					</li>
 					<li>
-						Spelling & Written Expression: Persistent difficulties with orthographic mapping and translating thoughts to paper.
+						Spelling & Written Expression: Persistent difficulties with orthographic mapping and translating thoughts onto paper.
 					</li>
 				</ul>
 			</div>
