@@ -29,7 +29,7 @@ export default function Dyslexia() {
 				</a>
 
 				<p>
-					Modern education increasingly views dyslexia through the lens of neurodiversity—recognizing it as a natural variation in human neurology rather than a deficit. This shift in perspective moves us away from "fixing" a student and toward building supportive environments that honor different processing styles.
+					Modern education increasingly views dyslexia through the lens of neurodiversity, recognizing it as a natural variation in human neurology rather than a deficit. This shift in perspective moves us away from "fixing" a student and toward building supportive environments that honor different processing styles.
 				</p>
 
 				<p>
