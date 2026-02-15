@@ -39,7 +39,7 @@ export default function Orthography() {
 					To a student with dyslexia who relies on a simple "one letter = one sound" rule, these complexities feel like rule-breakers and can be very frustrating. Traditional spelling instruction focuses on “sounding out” words or rote memory. The Literacy Wellness approach dives deep into orthography to explain the logic that governs the English writing system.
 				</p>
 
-				<img src="orthoinfographic.jpg" alt="infographic" style={{width: "100%"}} />
+				<img src="orthoinfographic.jpg" alt="infographic" style={{width: "75%"}} />
 			</div>
 		)
 	}
