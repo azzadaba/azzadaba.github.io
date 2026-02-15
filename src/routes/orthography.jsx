@@ -5,7 +5,7 @@ import Infobox from "../components/infobox";
 export default function Orthography() {
 
 	let data = {
-		header: (<h2>Orthography: The Architecture of Written Language</h2>),
+		header: (<h2>Orthography: The Rules of Written Language</h2>),
 		text: (
 			<div>
 				<p>
