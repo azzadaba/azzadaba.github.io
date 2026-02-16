@@ -19,7 +19,7 @@ export default function Services() {
 							Customized Learning: Every program begins with an initial assessment to identify specific knowledge gaps and establish a personalized intervention plan.
 						</li>
 						<li>
-							Comprehensive Skill Development: One-hour sessions target all aspects of literacy, including phonological awareness, reading, spelling, grammar, and syntax.
+							Comprehensive Skill Development: One-hour sessions target all aspects of literacy, including phonological/morphological awareness, reading/reading comprehension, writing, spelling, grammar, and syntax.
 						</li>
 						<li>
 							Evidence-Based Methodology: Instruction is delivered using a specialized hybrid of Orton-Gillingham and Structured Word Inquiry principles.
@@ -34,25 +34,47 @@ export default function Services() {
 
 				<a id="consulting" className="basic-header">
 					<h3>Consulting & Assessment</h3>
-				</a>
+<p>
+    Expert guidance on learning differences and literacy acquisition is provided for families, schools, and institutions.
+</p>
 
-				<p>
-					Expert guidance on learning differences and literacy acquisition is provided for families, schools, and institutions.
+<h4>Standardized Academic Achievement Assessments</h4>
+<p>
+    A comprehensive formal academic achievement assessment including the following standardized measures evaluate a learner’s current academic standing compared to their peers. 
+</p>
+<ul>
+    <li>
+        <strong>Wechsler Individual Achievement Test (WIAT-IV):</strong> A comprehensive, individually administered test designed to assess academic skills in reading, writing, math and oral language. It is used to identify specific academic strengths and weaknesses to guide educational intervention and identify individuals at risk of learning disabilities.
+    </li>
+    <li>
+        <strong>Gray Oral Reading Tests (GORT-5):</strong> A more detailed measure of oral reading rate, accuracy, fluency, and comprehension, helping to pinpoint specific breakdowns in reading efficiency.
+    </li>
+    <li>
+        <strong>Test of Receptive & Expressive Morphology (TERM):</strong> An evaluation of a student’s ability to understand and use word parts (prefixes, suffixes, and roots), which is fundamental to vocabulary development and reading comprehension.
+    </li>
+</ul>
 
-					<ul>
-						<li>
-							Informal Academic Assessments: Specific literacy gaps are identified to provide a clear roadmap for remedial programs.
-						</li>
-						<li>
-							Early Learner Observations: Brief observations and recommendations are available to support early intervention strategies for young students.
-						</li>
-						<li>
-							IEP Advocacy & Support: Representation is provided at Individual Education Plan (IEP) meetings to ensure school-based support aligns with the learner's specific needs.
-						</li>
-						<li>
-							Professional Speaking: Presentations are available on topics including dyslexia, English as an Additional Language (EAL), and the science of literacy acquisition.
-						</li>
-					</ul>
+<h4>Comprehensive Literacy Screening & Observations</h4>
+<ul>
+    <li>
+        <strong>Comprehensive Literacy Screening:</strong> A brief but comprehensive screening encompassing phonological awareness, rapid naming, reading, spelling, and writing skills analysis. Used to identify individuals (specifically young children), who are at risk for LDs and to provide a roadmap for remediation.
+    </li>
+    <li>
+        <strong>Early Learner Observations:</strong> Onsite observations and recommendations are available to support early intervention strategies for young students by identifying early indicators of learning challenges.
+    </li>
+</ul>
+
+<h4>Advocacy & Professional Services</h4>
+<ul>
+    <li>
+        <strong>IEP Advocacy & Support:</strong> Representation is provided at Individual Education Plan (IEP) meetings to ensure school-based support and accommodations align strictly with the learner's specific academic needs.
+    </li>
+    <li>
+        <strong>Professional Speaking:</strong> Presentations and workshops are available on topics including dyslexia, English as an Additional Language (EAL), and the science of literacy acquisition.
+    </li>
+</ul>
+
+<p><em>*Note: These assessments focus on academic achievement and literacy skills for educational planning and progress monitoring; they do not constitute a psychological or medical diagnosis.</em></p>
 				</p>
 
 				<hr />
