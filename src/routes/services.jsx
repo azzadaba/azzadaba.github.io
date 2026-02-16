@@ -9,25 +9,28 @@ export default function Services() {
 			<div>
 				<a id="tutoring" className="basic-header">
 					<h3>Structured Literacy Intervention</h3>
-				</a>
 
-				<p>
-					Private, 1:1 remedial support is provided for learners of all ages. These sessions are designed to address the root causes of literacy challenges through a tailored, evidence-based framework. Sessions are offered in-person during and after school hours; on-line sessions may be available in specific circumstances.
+<p>
+    Private, 1:1 remedial literacy intervention is provided for learners of all ages, from early childhood through adulthood. These sessions are designed to identify and address the root causes of literacy challenges through a highly tailored, evidence-based framework.
+</p>
 
-					<ul>
-						<li>
-							Customized Learning: Every program begins with an initial assessment to identify specific knowledge gaps and establish a personalized intervention plan.
-						</li>
-						<li>
-							Comprehensive Skill Development: One-hour sessions target all aspects of literacy, including phonological/morphological awareness, reading/reading comprehension, writing, spelling, grammar, and syntax.
-						</li>
-						<li>
-							Evidence-Based Methodology: Instruction is delivered using a specialized hybrid of Orton-Gillingham and Structured Word Inquiry principles.
-						</li>
-						<li>
-							Summer Intensives: Small-group "mini-camps" are offered during the summer months, focusing on intensive skill development over a one-week period. Request to be added to the contact list for upcoming dates.
-						</li>
-					</ul>
+<ul>
+    <li>
+        <strong>Assessment-Led Programming:</strong> Every program begins with a targeted academic assessment to identify specific knowledge gaps and establish a personalized intervention plan.
+    </li>
+    <li>
+        <strong>Comprehensive Skill Building:</strong> One-hour sessions target all aspects of literacy, including phonological and morphological awareness, reading fluency, comprehension, writing composition, spelling, grammar, and syntax.
+    </li>
+    <li>
+        <strong>Tailored and Specialized Methodology:</strong> Instruction is customized to the learner's unique profile, using a specialized hybrid of Orton-Gillingham and Structured Word Inquiry (SWI) principles, integrating the Literacy Wellness frameworks.
+    </li>
+    <li>
+        <strong>In-Person & Remote Options:</strong> Sessions are primarily offered in-person during and after school hours to ensure maximum engagement. Online sessions may be available on a case-by-case basis depending on specific circumstances.
+    </li>
+    <li>
+        <strong>Summer Intensives:</strong> Small-group "mini-camps" are offered during the summer months, focusing on intensive skill development over a one-week period. Request to be added to the contact list for upcoming dates.
+    </li>
+</ul>
 				</p>
 
 				<hr />
