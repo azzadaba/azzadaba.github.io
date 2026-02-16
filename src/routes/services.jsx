@@ -82,19 +82,18 @@ export default function Services() {
 
 				<hr />
 				<h3>Educational Resources & Literacy Tools</h3>
-				<p>
-					I currently offer a growing collection of literacy resources designed for purchase. Ranging from informative slide presentations or infographics to targeted practice worksheets and apps, these materials are designed for parents supporting a learner at home or educators seeking evidence-based classroom tools.
-				</p>
-				<Link to={"/resources"}>Browse the Resource Shop</Link>
+<p>
+    Explore a growing collection of evidence-based literacy resources curated for both home and classroom use. From informative presentations and infographics to targeted practice apps and workbooks, including the <strong>Spell-o-Logic™</strong> and <strong>Morph-o-Logic™</strong> series. These tools represent the <strong>culmination of my twenty years of specialized expertise</strong> in remedial literacy and inclusive education.
+</p>
+<Link to={"/resources"}>Browse the Resource Shop</Link>
 
-				<p>
-					<i>
-						While a selection of materials is available for purchase now, I am continually developing and adding new tools to this collection. Stay informed and join the waitlist to be the first to know when new specialized tools and resources are released.
-					</i>
-				</p>
+<p>
+    <i>
+        New specialized tools and digital workbooks are continually in development. To receive updates on new releases and gain early access to specialized resources across various platforms, join the waitlist below.
+    </i>
+</p>
 
-				<Link to={"mailto:azzadaba@literacywellness.com"}>Join the Waitlist</Link>
-			</div>
+<Link to={"mailto:azzadaba@literacywellness.com"}>Join the Waitlist</Link>
 		)
 	};
 
