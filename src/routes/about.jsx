@@ -23,7 +23,7 @@ export default function About() {
 				<p>By leveraging Structured Literacy and the latest Science of Reading research, Azza’s integrated methodology combines the foundational framework of Orton-Gillingham with the analytical depth of Structured Word Inquiry.</p>
 				
 				<h3>Translating Practice into Digital Resources</h3>
-				<p>The specialized digital tools and resources curated by Literacy Wellness are a direct extension of Azza’s extensive direct intervention with students. These tools are designed to replicate the "lightbulb moments" found in her private sessions, guiding learners through the “whys” and “hows” of English with the same clarity and structured guidance she provides in person.
+				<p>The specialized digital tools and resources curated by Literacy Wellness are a direct extension of Azza’s extensive direct intervention with students. These tools are designed to replicate the "lightbulb moments" found in her private sessions, guiding learners through the “whys” and “hows” of English with the same clarity and structured guidance she provides in person.</p>
 					
 				<h3>A Dedicated Practitioner and Lifelong Learner</h3>
 				<p>Azza is dedicated to continuous professional development, ensuring her practice remains at the intersection of evolving research and proven results. In a field where evidence-based practices are constantly advancing, she translates complex insights from the Science of Reading into accessible, high-impact resources. Through this platform, Azza provides families and educators with the professional tools and specialized guidance necessary to foster lasting literacy wellness for every learner.</p>
