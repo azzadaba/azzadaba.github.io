@@ -85,7 +85,7 @@ export default function Services() {
                 <p>
                     Explore a growing collection of evidence-based literacy resources curated for both home and classroom use. From informative presentations and infographics to targeted practice apps and workbooks, including the <strong>Spell-o-Logic™</strong> and <strong>Morph-o-Logic™</strong> series. These tools represent the <strong>culmination of my twenty years of specialized expertise</strong> in remedial literacy and inclusive education.
                 </p>
-                <Link to={"/resources"}>Browse the Resource Shop</Link>
+                <Link to={"https://payhip.com/LITERACYWELLNESS"}>Browse the Resource Shop</Link>
 
                 <p>
                     <i>
