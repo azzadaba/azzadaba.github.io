@@ -7,7 +7,6 @@ export default function Resources() {
     text: (
       <div>
         <center>
-          <div class="payhip-embed-page" data-key="4x5dD">...</div><script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68985"></script>
         </center>
       </div>
     ),
