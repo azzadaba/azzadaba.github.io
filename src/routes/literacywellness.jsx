@@ -41,7 +41,7 @@ export default function LiteracyWellness() {
 							<Link to={"/assistivetech"}>Assistive Technology</Link>: Explore a curated list of modern tools that level the playing field, from Text-to-Speech to digital organization suites.
 						</li>
 						<li>
-							<Link to={"/resources"}>The Resource Shop</Link>: Browse my growing library of practitioner-grade materials, including instructional slides, infographics, and practice templates for families and educators.
+							<Link to={"https://payhip.com/LITERACYWELLNESS"}>The Resource Shop</Link>: Browse my growing library of practitioner-grade materials, including instructional slides, infographics, and practice templates for families and educators.
 						</li>
 					</ul>
 				</p>
